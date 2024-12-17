@@ -1,0 +1,16 @@
+// Pythia Configuration File
+
+// Beam Settings
+Beams:idA = 2212
+Beams:idB = 11
+Beams:frameType = 2
+Beams:eA = 100
+Beams:eB = 10
+
+// Process Settings
+WeakBosonExchange:ff2ff(t:gmZ) = on
+SpaceShower:dipoleRecoil = on
+PDF:lepton = off
+
+// Phase Space Settings
+PhaseSpace:Q2min = 100
